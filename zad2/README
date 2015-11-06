@@ -1,0 +1,12 @@
+Aby uruchomić program należy skompilować go w następujący sposób:
+
+g++ instalator.cpp -o instalator szyfruj.cpp kodowanie.cpp -lcrypto
+g++ player.cpp -o player deszyfruj.cpp kodowanie.cpp -lcrypto -lmpg123 -lao
+
+Następnie trzeba uruchomić skompilowany program instalator i podać w nim dane do utworzenia pliku "config"
+W programie "player" możemy odtworzyć utwór podając pin i nazwę utworu
+
+Przykładowy utwór jest zaszyfrowany:
+Id klucza - 0
+haslo do klucza 0123456789012345
+
